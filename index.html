@@ -5,15 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="clockStyle.css">
-
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/cupertino/jquery-ui.min.css"> 
+    <script src = "http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script>
     <!-- JS --> 
     <script src="clockFunction.js"></script>
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="clockStyle.css">
 </head>
 <body>
+    <div class="container">
+        <H1 id="mainTitle">Clock In/ Out</H1>
+        <form action="#">
+            <label for="calendar">Today's Date: </label>
+            <input type="text" id="datePicker" name="calendar" /> 
+            <br><br>
+            <label for="start">Start Time: </label>
+            <input type="time" id="startTime" name="start">
+            <label for="end">End Time: </label>
+            <input type="time" id="endTime" name="end">
+            <br><br>
+            <label for="note">I worked On: </label> <br>
+            <textarea name="message" id="message" cols="40" rows="5"></textarea>
+            <br><br><br><br><br>
+            <input type="reset" value="Clear" id="reset" class="btn">
+            <input type="button" value="Submit" id="submit" class="btn">
+
+           
+        </form>
+    </div>
     
 </body>
 </html>

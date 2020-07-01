@@ -1,3 +1,46 @@
 body{
-    background-color: burlywood;
+    background-color: white;
+    color: teal;
+}
+#mainTitle{
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    letter-spacing: 2px;
+}
+.container{
+    margin: 100px;
+}
+@media only screen and (min-width:600px){
+    form{
+        padding-left: 35%;
+    }
+}
+@media only screen and (max-width:600px){
+    form{
+        padding-left: none;
+        
+    }
+}
+form{
+    font-size: large;
+}
+#message {
+    float: left;
+    /* width: 50%;
+    min-height: 75px;
+    outline: none; */
+    resize: none;
+    
+}
+.btn{
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    margin-right: 2em;
+
 }
