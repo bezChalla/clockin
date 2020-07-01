@@ -1,5 +1,7 @@
 function start(){
-    alert("working"); 
+    $(function(){
+        $("#datePicker").datepicker();
+    });
 }
 
 window.addEventListener("load", start, false);
