@@ -21,7 +21,6 @@ h1{
 @media only screen and (max-width:600px){
     form{
         padding-left: none;
-        
     }
 }
 form{
@@ -29,11 +28,7 @@ form{
 }
 #message {
     float: left;
-    /* width: 50%;
-    min-height: 75px;
-    outline: none; */
-    resize: none;
-    
+    resize: none;   
 }
 .btn{
     background-color: teal;
@@ -42,5 +37,4 @@ form{
     height: 25px;
     border-radius: 15px;
     margin-right: 2em;
-
 }
