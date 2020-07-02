@@ -18,8 +18,8 @@
 </head>
 <body>
     <div class="container">
-        <H1 id="mainTitle">Clock In/ Out</H1>
-        <form action="#">
+        <H1 class="title">Clock In/ Out</H1>
+        <form id="newEntry" action="#">
             <label for="calendar">Today's Date: </label>
             <input type="text" id="datePicker" name="calendar" /> 
             <br><br>
@@ -34,6 +34,25 @@
             <input type="reset" value="Clear" id="reset" class="btn">
             <input type="button" value="Submit" id="submit" class="btn"> 
         </form>
+
+        <div id="results">
+            <h1 class="title">Your Summary</h1>
+            <!-- I will be using JS to calculate the ours and display the summary here -->
+            <form id="summary" action="#">
+                <p>
+                    Hours Worked Today, <input id="dateToday" type="text" value=""> : <input type="text" id="hoursDaily" value="">
+                </p>
+                <p> You worked on : </p>
+                <textarea name="messageDisplay" id="messageDisplay" cols="50" rows="4"></textarea>
+                <p>
+                    Hours Worked This Week: <input id="hoursWeekly" type="text" value="">
+                </p>
+                <p>
+                    Hours Worked in <input id="month" type="text" value=""> : <input type="text" id="hoursMonthly" value="">
+                </p>
+
+            </form>
+        </div>
     </div>
     
 </body>

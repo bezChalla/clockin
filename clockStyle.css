@@ -2,7 +2,7 @@ body{
     background-color: white;
     color: teal;
 }
-#mainTitle{
+.title{
     color: teal;
     font-weight: bold;
     text-align: center;
@@ -37,4 +37,13 @@ form{
     height: 25px;
     border-radius: 15px;
     margin-right: 2em;
+}
+
+#results{
+    margin-top: 100px;
+    /* display: none; */
+}
+#results input, textarea{
+    border: none;
+    color: rgb(1, 56, 56);
 }
